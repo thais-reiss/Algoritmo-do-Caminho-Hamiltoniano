@@ -1,5 +1,7 @@
 #Algoritmo para encontrar um Caminho Hamiltoniano em um grafo
+
 ##O que é este projeto?
+
 Este projeto apresenta uma implementação em Python de um algoritmo capaz de identificar um Caminho Hamiltoniano em um grafo, quando este existe, e de visualizar o grafo gerado. Além disso, o projeto inclui um
 relatório técnico detalhado sobre o algoritmo, abordando:
 
