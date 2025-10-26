@@ -167,7 +167,7 @@ O Teorema Mestre serve para recorrências do tipo Divide and Conquer:
 
 T(n)=aT(n/b)+f(n)
 
-No entanto, o algoritmo de backtracking usado para resolver o Problema do Caminho Hamiltoniano não segue esse padrão recursivo, porque o algoritmo não divide o problema em subproblemas de tamanho reduzido fixo. O que ele faz é explorar todas as combinações possíveis, não um subgrafo menor.
+No entanto, o algoritmo de backtracking usado para resolver o Problema do Caminho Hamiltoniano não segue esse padrão recursivo, porque ele não divide o problema em subproblemas de tamanho reduzido fixo. O que ele faz é explorar todas as combinações possíveis, não um subgrafo menor.
 
 ## Análise dos casos de complexidade
 
