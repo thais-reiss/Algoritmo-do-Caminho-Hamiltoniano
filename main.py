@@ -10,7 +10,6 @@ def encontrar_caminho_hamiltoniano(grafo):
     visitados = set()
     
     for no_inicial in grafo:
-        
         if backtrack(grafo, total_vertices, no_inicial, caminho_atual, visitados):
             return caminho_atual
 
@@ -26,7 +25,6 @@ def backtrack(grafo, total_vertices, vertice_atual, caminho_atual, visitados):
 
     for vizinho in grafo[vertice_atual]:
         if vizinho not in visitados:
-
             if backtrack(grafo, total_vertices, vizinho, caminho_atual, visitados):
                 return True 
                 
