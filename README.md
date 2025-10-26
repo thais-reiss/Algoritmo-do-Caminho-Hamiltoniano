@@ -184,7 +184,7 @@ No entanto, o algoritmo de backtracking usado para resolver o Problema do Caminh
    - O algoritmo explora todas as permutações.
    - A complexidade é O(n!).
 
-
+Essas diferenças mostram que o desempenho deste algoritmo é eficiente para grafos pequenos, mas não é praticável em grafos grandes.
 
 
 
