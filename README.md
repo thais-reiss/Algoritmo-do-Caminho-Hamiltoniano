@@ -176,13 +176,13 @@ No entanto, o algoritmo de backtracking usado para resolver o Problema do Caminh
    - Por exemplo, o caminho Hamiltoniano é encontrado logo no primeiro vértice testado, com poucos vizinhos a explorar.
    - A complexidade é aproximadamente O(n^2) ou até menos.
 2. Caso médio
-  - Depende da estrutura do grafo (densidade de arestas, distribuição de vértices).
-  - Em média, o algoritmo explora apenas um subconjunto de todas as permutações antes de encontrar uma solução.
-  - A complexidade fica entre, aproximadamente, O(n^2) e O(n!), sem fórmula precisa.
+   - Depende da estrutura do grafo (densidade de arestas, distribuição de vértices).
+   - Em média, o algoritmo explora apenas um subconjunto de todas as permutações antes de encontrar uma solução.
+   - A complexidade fica entre, aproximadamente, O(n^2) e O(n!), sem fórmula precisa.
 3. Pior caso
-  - Grafo não possui caminho Hamiltoniano, ou só o último vértice tentado fecha o caminho.
-  - O algoritmo explora todas as permutações.
-  - A complexidade é O(n!).
+   - Grafo não possui caminho Hamiltoniano, ou só o último vértice tentado fecha o caminho.
+   - O algoritmo explora todas as permutações.
+   - A complexidade é O(n!).
 
 
 
