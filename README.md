@@ -90,7 +90,7 @@ Se após todos os nós iniciais terem sido testados e o loop terminou sem retorn
 ```python
    def backtrack(grafo, total_vertices, vertice_atual, caminho_atual, visitados):
 ```
-Função recursiva que tenta construir o um caminho Hamiltoniano a partir do vértice_atual. 
+Função recursiva que tenta construir um caminho Hamiltoniano a partir do vértice_atual. 
 
 ---
 
